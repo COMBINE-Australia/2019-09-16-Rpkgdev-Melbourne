@@ -215,7 +215,7 @@ Logos for sponsors go here
 <div class="row">
   <div class="col-md-12">
     <div class="text-center">
-      <img src="{{ relative_root_path }}{% link /assets/img/WEHI_logo_2016_0.png %}" alt="WEHI logo">
+      <img src="./assets/img/WEHI_logo_2016_0.png" alt="WEHI logo">
     </div>
   </div>
 </div>
