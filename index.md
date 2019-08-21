@@ -1,7 +1,7 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
-carpentry: "combine"    # what kind of Carpentry (must be either "lc" or "dc" or "swc").  
-                      # Be sure to update the Carpentry type in _config.yml as well.  
+carpentry: "combine"    # what kind of Carpentry (must be either "lc" or "dc" or "swc").
+                      # Be sure to update the Carpentry type in _config.yml as well.
 venue: "Walter and Eliza Hall Institute"        # brief name of host site without address (e.g., "Euphoric State University")
 address: " 1G, Royal Parade, Parkville VIC 3052"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "Australia"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes)
@@ -36,7 +36,7 @@ For a workshop please delete the following block
 {% if page.carpentry != site.carpentry %}
 <div class="alert alert-warning">
 You specified <code>carpentry: {{page.carpentry}}</code> in <code>index.md</code> and
-<code>carpentry: {{site.carpentry}}</code> in <code>_config.yml</code>. Make sure you edit both files. After editing <code>_config.yml</code>, you need to run <code>make serve</code> again to 
+<code>carpentry: {{site.carpentry}}</code> in <code>_config.yml</code>. Make sure you edit both files. After editing <code>_config.yml</code>, you need to run <code>make serve</code> again to
 see the changes take effect locally.
 </div>
 {% endif %}
@@ -132,8 +132,8 @@ REGISTRATIONS
 Link to registrations
 {% endcomment %}
 <p>
-  <strong>Registrations:</strong>
-  <a href="">LINK TO REGISTRATIONS</a>
+  <strong>Registrations:</strong> Register on the
+  <a href="https://www.abacbs.org/events/abacbs-supported-event#!event-register/2019/9/16/combine-melbourne-r-package-development-workshop">ABACBS website</a>.
 </p>
 
 {% comment %}
@@ -171,11 +171,9 @@ special instructions.
   <li>Accessible restrooms are available.</li>
 </ul>
 <p>
-  Materials will be provided in advance of the workshop and
-  large-print handouts are available if needed by notifying the
-  organizers in advance. If you have any other needs please
-  get in touch (using contact details below) and we will
-  attempt to provide them.
+  Materials will be provided in advance of the workshop. If you have any other
+  needs please get in touch (using contact details below) and we will attempt to
+  provide them.
 </p>
 
 {% comment %}
@@ -222,12 +220,12 @@ Logos for sponsors go here
 
 <hr/>
 
-{% comment %} 
-SURVEYS - DO NOT EDIT SURVEY LINKS 
+{% comment %}
+SURVEYS - DO NOT EDIT SURVEY LINKS
 
 <h2 id="surveys">Surveys</h2>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
-{% if site.carpentry == "swc" %} 
+{% if site.carpentry == "swc" %}
 <p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 {% elsif site.carpentry == "dc" %}
@@ -369,9 +367,9 @@ please preview your site before committing, and make sure to run
           from <a href="https://cran.r-project.org/index.html">CRAN</a>.
           Also, please install the
           <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
-          Note that if you have separate user and admin accounts, you should run the 
-          installers as administrator (right-click on .exe file and select "Run as 
-          administrator" instead of double-clicking). Otherwise problems may occur later, 
+          Note that if you have separate user and admin accounts, you should run the
+          installers as administrator (right-click on .exe file and select "Run as
+          administrator" instead of double-clicking). Otherwise problems may occur later,
           for example when installing R packages.
         </p>
       </article>
@@ -443,7 +441,7 @@ please preview your site before committing, and make sure to run
           <a href="http://sourceforge.net/projects/git-osx-installer/files/">this list</a>.
           Because this installer is not signed by the developer, you may have to
           right click (control click) on the .pkg file, click Open, and click
-          Open on the pop up window. 
+          Open on the pop up window.
           After installing Git, there will not be anything in your <code>/Applications</code> folder,
           as Git is a command line program.
           <strong>For older versions of OS X (10.5-10.8)</strong> use the
