@@ -12,7 +12,7 @@ humantime: "09:00 - 17:00"    # human-readable times for the workshop (e.g., "9:
 startdate: 2019-09-16      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2019-09-16        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Luke Zappia"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Ilariya Tarasova"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Ilariya Tarasova", "Harry Wang"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["combine@combine.org.au"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -202,6 +202,8 @@ Display the contact email address set in the configuration file.
   {% endif %}
   for more information.
 </p>
+
+<div id="SFctr" class="SF" data-org="17499" data-ini="!event-register/2019/9/16/combine-melbourne-r-package-development-workshop" data-scl="0" data-sfi="1"><script>location.hash="";</script><script src="//cdn.membershipworks.com/mfm.js"></script></div>
 
 <hr/>
 
